@@ -18,18 +18,7 @@ data-files:           readme.md
 
 library
   ghc-options: -Wall
-  build-depends:
+  build-depends: base, zip-archive
   hs-source-dirs: src/
   exposed-modules:  
-                      Network.Loli
-                      Network.Loli.Config
-                      Network.Loli.DSL
-                      Network.Loli.Engine
-                      Network.Loli.Middleware.IOConfig
-                      Network.Loli.Middleware.LoliRouter
-                      Network.Loli.Middleware.UserMime
-                      Network.Loli.Template
-                      Network.Loli.Template.ConstTemplate
-                      Network.Loli.Template.TextTemplate
-                      Network.Loli.Type
-                      Network.Loli.Utils
+                      Bonkuras
