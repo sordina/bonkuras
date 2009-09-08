@@ -9,6 +9,8 @@ on combinations.
 * Tadakichi-san
 * Maya
 
+## Techical details
+
 Code in written in a purely functional style
 with emphasis placed on modularity, and purity.
 
@@ -18,3 +20,7 @@ reading the free-output files that Google Sketchup can produce.
 
 * Written in haskell
 * Modeling done in Google Sketchup
+
+## External dependencies
+
+* [Google Sketchup](http://sketchup.google.com/)
